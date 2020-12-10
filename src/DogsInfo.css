@@ -1,0 +1,19 @@
+.DogsInfo-card {
+  font-family: "Langar", cursive;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.5), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 40px;
+}
+.fact {
+  font-size: 25px;
+}
+@media (max-width: 400px) {
+  .name {
+    font-size: 30px;
+  }
+  .fact {
+    font-size: 18px;
+  }
+}

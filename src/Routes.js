@@ -12,7 +12,7 @@ class Routes extends Component {
         if (dog.name.toLowerCase() === name.toLowerCase()) {
           found = true;
           return dog;
-        }
+        } else return undefined;
       });
       if (found === true) return <DogsInfo dog={foundDog} {...prop} />;
       else return <Redirect to="/dogs" />;

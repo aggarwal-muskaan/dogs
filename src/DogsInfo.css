@@ -8,6 +8,7 @@
 }
 .fact {
   font-size: 25px;
+  word-spacing: 5px;
 }
 @media (max-width: 400px) {
   .name {
